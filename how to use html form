@@ -1,0 +1,45 @@
+<body>
+<form>
+description:<br/>
+<textarea row = "5" cols="50">
+enter description here..........
+</textarea>
+<h2>this method attributes</h2>
+<form action ="/action_page.php" target ="_blank" method="GET">
+<input type ="text" name ="first"value="lily">
+<br>
+<input type ="text" name ="first"value="lily" required>
+<br>
+<input type ="submit" value="Submit">
+<form action="/action_page.phhp" method="get">
+<input type = "reset">
+<input type ="date">
+<input type ="email">
+<input type ="file">
+<input type ="month">
+<input type ="number">
+<input type ="time">
+<input type ="url">
+<input type ="range"min="10" max="100" step ="1">
+<input type ="checkbox" checked>i have a car<br>
+<input type ="checkbox">i have  a car<br>
+<input type ="radio" name = "gender" value="male" checked> male<br>
+<input type ="radio" name = "gender" value="female" checked> female<br>
+<input type ="radio" name = "gender" value="other" checked> other<br>
+<select name ="cars" size ="2">
+<option value ="volvo" selected>volvo</option>
+<option value ="benz">benz</option>
+<option value ="flat">flat</option>
+</select>
+firstname:<input type="text" name = "first_name"value="john" disabled size="40" autofocus/>
+<br>
+last name :<input type = "text"name ="last_name" value ="sin"readonly maxlength="20" autofocus/>
+<input type ="text" name4="country_code" pattern="[A-za-z]{3}">
+<button type ="button" onclick="alert('hello world')">clickme</button>
+<button type ="image" name="imagebutton" src="/home/itsec4/Downloads/destiny-2-1366x768-4k-8k-17062.jpg"/>
+<input type = "password" name="psw">
+<input type = "submit" name="submit">
+<br>
+
+</form>
+</body>
