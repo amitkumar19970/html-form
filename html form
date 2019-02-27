@@ -1,0 +1,15 @@
+<!docTYPE html>
+<html>
+<body>
+<fieldset>
+<legend>pi</legend>
+<h2>this method attributes</h2>
+<form action ="/action_page.php" target ="_blank" method="GET">
+<input type ="text" name ="first"value="lily">
+<br>
+<input type ="text" name ="first"value="lily" required>
+<br>
+<input type ="submit" value="Submit">
+</fieldset>
+</form>
+</body>
